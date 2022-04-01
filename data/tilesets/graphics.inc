@@ -1469,3 +1469,63 @@ gTilesetPalettes_HallOfFame:: @ 829F4C8
 	.incbin "data/tilesets/secondary/hall_of_fame/palettes/13.gbapal"
 	.incbin "data/tilesets/secondary/hall_of_fame/palettes/14.gbapal"
 	.incbin "data/tilesets/secondary/hall_of_fame/palettes/15.gbapal"
+
+	.align 2
+gTilesetPalettes_Newbark::
+	.incbin "data/tilesets/secondary/newbark/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/newbark/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Newbark::
+	.incbin "data/tilesets/secondary/newbark/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Johto::
+	.incbin "data/tilesets/primary/johto/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/johto/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Johto::
+	.incbin "data/tilesets/primary/johto/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Goldenrod::
+	.incbin "data/tilesets/secondary/goldenrod/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/goldenrod/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Goldenrod::
+	.incbin "data/tilesets/secondary/goldenrod/tiles.4bpp.lz"

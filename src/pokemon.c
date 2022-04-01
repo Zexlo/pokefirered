@@ -21,6 +21,7 @@
 #include "pokedex.h"
 #include "strings.h"
 #include "overworld.h"
+#include "region_map.h"
 #include "party_menu.h"
 #include "field_specials.h"
 #include "constants/items.h"
@@ -34,6 +35,7 @@
 #include "constants/trainers.h"
 #include "constants/hold_effects.h"
 #include "constants/battle_move_effects.h"
+#include "constants/region_map_sections.h"
 
 #define SPECIES_TO_HOENN(name)      [SPECIES_##name - 1] = HOENN_DEX_##name
 #define SPECIES_TO_NATIONAL(name)   [SPECIES_##name - 1] = NATIONAL_DEX_##name
@@ -5681,9 +5683,9 @@ static u16 GetBattleBGM(void)
     if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
         return MUS_VS_WILD;
     if (gBattleTypeFlags & BATTLE_TYPE_REGI)
-        return MUS_RS_VS_TRAINER;
+        return MUS_VS_TRAINER;
     if (gBattleTypeFlags & BATTLE_TYPE_LINK)
-        return MUS_RS_VS_TRAINER;
+        return MUS_VS_TRAINER;
     if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
     {
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
@@ -5692,19 +5694,43 @@ static u16 GetBattleBGM(void)
             return MUS_VS_CHAMPION;
         case TRAINER_CLASS_LEADER:
         case TRAINER_CLASS_ELITE_FOUR:
-            return MUS_VS_GYM_LEADER;
+		GetCurrentRegionMapSectionId();
+            if (GetCurrentRegionMapSectionId() >= 0x8F && GetCurrentRegionMapSectionId() <= 0xC5)
+            {
+                return MUS_RS_VS_GYM_LEADER;
+            } 
+            else 
+            {
+                return MUS_VS_GYM_LEADER;
+            }
         case TRAINER_CLASS_BOSS:
         case TRAINER_CLASS_TEAM_ROCKET:
+         return MUS_BERRY_PICK;
         case TRAINER_CLASS_COOLTRAINER:
         case TRAINER_CLASS_GENTLEMAN:
         case TRAINER_CLASS_RIVAL_LATE:
         default:
-            return MUS_VS_TRAINER;
+        GetCurrentRegionMapSectionId();
+            if (GetCurrentRegionMapSectionId() >= 0x8F && GetCurrentRegionMapSectionId() <= 0xC5)
+            {
+                return MUS_RS_VS_TRAINER;
+            } 
+            else 
+            {
+                return MUS_VS_TRAINER;
+            }
         }
+         
+	}	
+   if (GetCurrentRegionMapSectionId() >= 0x8F && GetCurrentRegionMapSectionId() <= 0xC5)
+            {
+                return MUS_HEAL_UNUSED;
+            } 
+            else 
+            {
+                return MUS_VS_WILD;
     }
-    return MUS_VS_WILD;
 }
-
 void PlayBattleBGM(void)
 {
     ResetMapMusic();

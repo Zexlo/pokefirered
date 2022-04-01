@@ -595,6 +595,9 @@ $(HALLOFFAMEGFXDIR)/hall_of_fame.4bpp: %.4bpp: %.png
 $(TILESETGFXDIR)/primary/general/anim/water_current_landwatersedge/7.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 47
 
+$(TILESETGFXDIR)/primary/johto/anim/jwater_current_landwatersedge/7.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 47
+
 $(MAPPREVIEWGFXDIR)/altering_cave/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 391
 

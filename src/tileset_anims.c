@@ -32,6 +32,22 @@ static const u16 *const sTilesetAnims_General_Flower[] = {
     sTilesetAnims_General_Flower_Frame4
 };
 
+// palette: General 00
+static const u16 sTilesetAnims_Johto_Jflower_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/0.4bpp");
+static const u16 sTilesetAnims_Johto_Jflower_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/1.4bpp");
+static const u16 sTilesetAnims_Johto_Jflower_Frame2[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/2.4bpp");
+static const u16 sTilesetAnims_Johto_Jflower_Frame3[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/3.4bpp");
+static const u16 sTilesetAnims_Johto_Jflower_Frame4[] = INCBIN_U16("data/tilesets/primary/general/anim/flower/4.4bpp");
+
+
+static const u16 *const sTilesetAnims_Johto_Jflower[] = {
+    sTilesetAnims_Johto_Jflower_Frame0,
+    sTilesetAnims_Johto_Jflower_Frame1,
+    sTilesetAnims_Johto_Jflower_Frame2,
+    sTilesetAnims_Johto_Jflower_Frame3,
+    sTilesetAnims_Johto_Jflower_Frame4
+};
+
 // palette: general 04
 static const u16 sTilesetAnims_General_Water_Current_LandWatersEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/general/anim/water_current_landwatersedge/0.4bpp");
 static const u16 sTilesetAnims_General_Water_Current_LandWatersEdge_Frame1[] = INCBIN_U16("data/tilesets/primary/general/anim/water_current_landwatersedge/1.4bpp");
@@ -51,6 +67,28 @@ static const u16 *const sTilesetAnims_General_Water_Current_LandWatersEdge[] = {
     sTilesetAnims_General_Water_Current_LandWatersEdge_Frame5,
     sTilesetAnims_General_Water_Current_LandWatersEdge_Frame6,
     sTilesetAnims_General_Water_Current_LandWatersEdge_Frame7
+};
+
+// palette: Johto 04
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/0.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame1[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/1.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame2[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/2.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame3[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/3.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame4[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/4.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame5[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/5.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame6[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/6.4bpp");
+static const u16 sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame7[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jwater_current_landwatersedge/7.4bpp");
+
+
+static const u16 *const sTilesetAnims_Johto_Jwater_Current_LandWatersEdge[] = {
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame0,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame1,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame2,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame3,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame4,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame5,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame6,
+    sTilesetAnims_Johto_Jwater_Current_LandWatersEdge_Frame7
 };
 
 // palette: general 04
@@ -73,6 +111,29 @@ static const u16 *const sTilesetAnims_General_SandWatersEdge[] = {
     sTilesetAnims_General_SandWatersEdge_Frame6,
     sTilesetAnims_General_SandWatersEdge_Frame7
 };
+
+// palette: Johto04
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame0[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/0.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame1[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/1.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame2[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/2.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame3[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/3.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame4[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/4.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame5[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/5.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame6[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/6.4bpp");
+static const u16 sTilesetAnims_Johto_JsandWatersEdge_Frame7[] = INCBIN_U16("data/tilesets/primary/Johto/anim/jsandwatersedge/7.4bpp");
+
+
+static const u16 *const sTilesetAnims_Johto_JsandWatersEdge[] = {
+    sTilesetAnims_Johto_JsandWatersEdge_Frame0,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame1,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame2,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame3,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame4,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame5,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame6,
+    sTilesetAnims_Johto_JsandWatersEdge_Frame7
+};
+
 
 // palette: general 00
 static const u16 sTilesetAnims_CeladonCity_Fountain_Frame0[] = INCBIN_U16("data/tilesets/secondary/celadon_city/anim/fountain/0.4bpp");
@@ -235,6 +296,38 @@ void InitTilesetAnim_General(void)
     sPrimaryTilesetAnimCounter = 0;
     sPrimaryTilesetAnimCounterMax = 640;
     sPrimaryTilesetAnimCallback = TilesetAnim_General;
+}
+
+static void QueueAnimTiles_Johto_Jflower(u16 timer)
+{
+    AppendTilesetAnimToBuffer(sTilesetAnims_Johto_Jflower[timer % NELEMS(sTilesetAnims_Johto_Jflower)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(508)), 4 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Johto_Jwater_Current_LandWatersEdge(u16 timer)
+{
+    AppendTilesetAnimToBuffer(sTilesetAnims_Johto_Jwater_Current_LandWatersEdge[timer % NELEMS(sTilesetAnims_Johto_Jwater_Current_LandWatersEdge)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(416)), 48 * TILE_SIZE_4BPP);
+}
+
+static void QueueAnimTiles_Johto_JsandWatersEdge(u16 timer)
+{
+    AppendTilesetAnimToBuffer(sTilesetAnims_Johto_JsandWatersEdge[timer % NELEMS(sTilesetAnims_Johto_JsandWatersEdge)], (u16 *)(BG_VRAM + TILE_OFFSET_4BPP(464)), 18 * TILE_SIZE_4BPP);
+}
+
+static void TilesetAnim_Johto(u16 timer)
+{
+    if (timer % 8 == 0)
+        QueueAnimTiles_Johto_JsandWatersEdge(timer >> 3);
+    if (timer % 16 == 1)
+        QueueAnimTiles_Johto_Jwater_Current_LandWatersEdge(timer >> 4);
+    if (timer % 16 == 2)
+        QueueAnimTiles_Johto_Jflower(timer >> 4);
+}
+
+void InitTilesetAnim_Johto(void)
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 640;
+    sPrimaryTilesetAnimCallback = TilesetAnim_Johto;
 }
 
 static void QueueAnimTiles_CeladonCity_Fountain(u16 timer)

@@ -747,3 +747,36 @@ gTileset_HallOfFame::
 	.4byte 0x0
 	.4byte gMetatileAttributes_HallOfFame
 
+
+	.align 2
+gTileset_Newbark::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Newbark
+	.4byte gTilesetPalettes_Newbark
+	.4byte gMetatiles_Newbark
+	.4byte NULL
+	.4byte gMetatileAttributes_Newbark
+
+	.align 2
+gTileset_Johto::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Johto
+	.4byte gTilesetPalettes_Johto
+	.4byte gMetatiles_Johto
+	.4byte InitTilesetAnim_Johto
+	.4byte gMetatileAttributes_Johto
+
+	.align 2
+gTileset_Goldenrod::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Goldenrod
+	.4byte gTilesetPalettes_Goldenrod
+	.4byte gMetatiles_Goldenrod
+	.4byte NULL
+	.4byte gMetatileAttributes_Goldenrod

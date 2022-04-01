@@ -541,3 +541,25 @@ gMetatiles_HallOfFame:: @ 82D415C
 	.align 1
 gMetatileAttributes_HallOfFame:: @ 82D48BC
 	.incbin "data/tilesets/secondary/hall_of_fame/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_Newbark::
+	.incbin "data/tilesets/secondary/newbark/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Newbark::
+	.incbin "data/tilesets/secondary/newbark/metatile_attributes.bin"
+	.align 1
+gMetatiles_Johto::
+	.incbin "data/tilesets/primary/johto/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Johto::
+	.incbin "data/tilesets/primary/johto/metatile_attributes.bin"
+	.align 1
+gMetatiles_Goldenrod::
+	.incbin "data/tilesets/secondary/goldenrod/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Goldenrod::
+	.incbin "data/tilesets/secondary/goldenrod/metatile_attributes.bin"
